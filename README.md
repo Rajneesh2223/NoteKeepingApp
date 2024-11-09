@@ -102,23 +102,6 @@ service cloud.firestore {
 }
 ```
 
-## 📁 Project Structure
-
-```
-notes-app/
-├── src/
-│   ├── components/
-│   │   ├── NotesPage.js
-│   │   ├── LoginPage.js
-│   │   └── SignUpPage.js
-│   ├── services/
-│   │   └── firebase.js
-│   ├── App.js
-│   └── index.js
-├── public/
-├── package.json
-└── tailwind.config.js
-```
 
 ## 🔧 Firebase Configuration
 
@@ -179,46 +162,6 @@ deleteNote(id)
 - Firebase security rules ensure data protection
 - Sensitive operations include error handling
 - Input validation on both client and server side
-
-## 🌐 Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## 📱 Mobile Support
-
-The app is fully responsive and works on:
-- iOS devices
-- Android devices
-- Tablets
-- Desktop browsers
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch: `git checkout -b feature/my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin feature/my-new-feature`
-5. Submit a pull request
-
+- 
 ## 📄 License
-
 This project is licensed under the MIT License - see the LICENSE file for details
-
-## 👥 Authors
-
-- Your Name
-- Your Email
-
-## 🙏 Acknowledgments
-
-- Firebase team for the excellent documentation
-- React.js community
-- Tailwind CSS team
-
-## 🆘 Support
-
-For support, email [your-email] or create an issue in the repository.
-![Uploading image.png…]()
